@@ -1,0 +1,13 @@
+@import '../bootstrap-5.0.2/scss/bootstrap.scss';
+
+
+@include media-breakpoint-between(xs, lg){
+    *{
+        background-color: violet;
+    }
+}
+@include media-breakpoint-between(lg, xxl){
+    *{
+        background-color: green;
+    }
+}

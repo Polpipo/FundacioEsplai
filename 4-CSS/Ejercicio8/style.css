@@ -1,0 +1,45 @@
+/*
+    EJERCICIO 8, EJERCICIO DE COLUMNAS:
+
+• Define un background color para el HTML
+• Define un titulo principal
+• Realiza un lorem*10 dentro de un elemento P
+• Haz que el párrafo se visualice en 3 columnas
+• Cuando nos situemos sobre el H1 queremos que el color del texto cambie.
+• Cuando seleccionemos el texto del párrafo, queremos que cambie el background y el color del texto.
+• La separación entre columnas deberá de ser de 40px
+• Finalmente, define una regla que separé a cada una de las columnas de 2px y que sea roja
+*/
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+*{
+    margin: 10px;
+    background-color: #fddfac;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+p{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 2px solid red;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+h1{
+    color: red;
+    transition: all 300ms;
+}
+h1:hover{
+    color: aquamarine;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+p::selection{
+    background-color: aquamarine;
+    color: red;
+}
+

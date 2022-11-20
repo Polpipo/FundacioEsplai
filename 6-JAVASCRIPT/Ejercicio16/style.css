@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 20px;
+}
+
+button{
+    padding: 10px;
+    margin-left: 30px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    border: none;
+}
+div{
+    padding-top: 0px;
+}
+
+.red{
+    background-color: rgb(223, 0, 0);
+    color: white;
+    transition: 300ms all;
+}
+.blue{
+    background-color: blue;
+    color: white;
+    transition: 300ms all;
+}
+
+
+#botonAzul{
+    color: white;
+    background-color: #5757c5;
+    transition: all 300ms;
+}
+#botonAzul:hover{
+    background-color: blue;
+}
+
+#botonRojo{
+    color: white;
+    background-color: rgb(216 36 46);
+    transition: all 300ms;
+}
+#botonRojo:hover{
+    background-color: rgb(223, 0, 0);
+}

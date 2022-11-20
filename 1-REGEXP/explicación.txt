@@ -1,0 +1,69 @@
+MUCHAS DE LAS EXPRESIONES REGULARES QUE EXISTEN, ESTÁN AQUÍ:
+https://medium.com/@davidbernalgonzalez/expresiones-regulares-regexp-a9eb2a5179dd
+https://miro.medium.com/max/4800/1*pfDWkzZo_wFM4r0INM51xA.png
+
+
+LETRAS: Seleccione el valor dicho
+ej. 2
+
+LITERALES: Que coja exactamente lo que le pida tantas veces como se repita
+ej. abc
+
+GRUPOS: Seleccione un grupo exacto de caracteres
+ej. [abc34z]
+
+RANGOS: Seleccione un rango entre dos valores
+ej. [a-z]
+
+NEGATIVOS: Seleccionar todo lo que NO entre dentro de la expresion que le pase (^)
+ej. [^a-z]
+
+SELECCIONAR TODAS LAS LETRAS:
+ej. [a-zñA-ZÑ]
+
+SELECCIONAR TODO: /*
+
+SELECCIONAR TODO MENOS SALTO DE LÍNEA: . 
+
+CARACTER CUALQUIERA: Usamos "." para seleccionar cualquier caracter y lo podemos combinar con algun otro valor
+ej. .j. --> Sacará todas las "j" + los caracteres de delante y de atras
+    e...o --> 
+
+SELECCIONAR SOLO TEXTO: \w
+*Si queremos que tambien coja las ñ --> [\wñ]
+
+SELECCIONAR TODO LO QUE NO SEA UN TEXTO: \W
+
+SELECCIONAR SOLO NUMEROS: \d
+
+SELECCIONAR TODO LO QUE NO SEA NUMEROS: \D
+
+SELECCIONAR EL LÍMITE DE LA PALABARA: \b
+
+SELECCIONAR QUE ACABE POR: $
+ej. hola --> a$
+
+SELECCIONAR QUE EMPIECE POR: ^
+ej. hola --> ^h
+
+SELECCIONAR VARIOS CON EL "O": |
+ej. 234532k90 --> 23|90
+
+
+
+
+
+
+
+
+
+
+TEXTO PARA SELECCIONAR Y PRACTICAR:
+123
+234
+123456
+1234567l  dv fpov
+
+fdvf
+
+rojo 

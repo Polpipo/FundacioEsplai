@@ -1,0 +1,77 @@
+body {
+  background-color: #edf1f7;
+}
+
+.daniel {
+  background-color: #733fc7;
+}
+.daniel img {
+  border: 2px solid #a888dc;
+}
+
+.jonathan {
+  background-color: #47556b;
+}
+.jonathan img {
+  border: 2px solid #748197;
+}
+
+.jeanette {
+  background-color: #ffffff;
+}
+.jeanette img {
+  border: 2px solid #dddcdc;
+}
+
+.patrick {
+  background-color: #19212d;
+}
+.patrick img {
+  border: 2px solid #a888dc;
+}
+
+.kira {
+  background-color: #ffffff;
+}
+.kira img {
+  border: 2px solid #dddcdc;
+}
+
+.daniel,
+.jonathan,
+.jeanette,
+.patrick,
+.kira {
+  border-radius: 10px;
+}
+
+img {
+  border-radius: 100px;
+  width: 35px;
+}
+
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 14px;
+  padding: 0px;
+}
+
+.graduate {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ccc;
+  font-size: 12px;
+  margin-top: -8px;
+}
+
+.resume {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.quote {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ccc;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

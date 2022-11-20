@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+div{
+    margin: 20px auto; 
+    border-radius: 10px;
+}
+
+#addItem, #removeItem{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 350px;
+    text-align: center;
+}
+h2{
+    padding: 10px;
+    padding-top: 0px;
+}
+button{
+    padding: 5px;
+    margin: 5px;
+}
+#push, #unshift, #insert{
+    color: white;
+    background-color: #a2d357;
+    border-radius: 10px;
+    transition: 300ms all;
+}
+#push:hover, #unshift:hover, #insert:hover{
+    background-color: #709538;
+}
+#pop, #shift, #remove{
+    color: white;
+    background-color: #e57777;
+    border-radius: 10px;
+    transition: 300ms all;
+}
+#pop:hover, #shift:hover, #remove:hover{
+    background-color: #d81e1e;
+}
+
+#result{
+    width: 750px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 30px;
+}

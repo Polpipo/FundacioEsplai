@@ -1,0 +1,30 @@
+@import '../bootstrap-5.0.2/scss/bootstrap.scss';
+
+*{
+    background-color: red;
+}
+@include media-breakpoint-only(sm){
+    *{
+        background-color: greenyellow;
+    }
+}
+@include media-breakpoint-only(md){
+    *{
+        background-color: orange;
+    }
+}
+@include media-breakpoint-only(lg){
+    *{
+        background-color: gray;
+    }
+}
+@include media-breakpoint-only(xl){
+    *{
+        background-color: deeppink;
+    }
+}
+@include media-breakpoint-only(xxl){
+    *{
+        background-color: deeppink;
+    }
+}

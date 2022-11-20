@@ -1,0 +1,92 @@
+/*
+    EJERCICIO 5:
+*/
+
+/* 1. Selecciona todos los elementos */
+*{
+    padding: 0px;
+    margin: 10px;
+}
+
+/* 2. Selecciona todos los elementos que sean de tipo P */
+p{
+    text-align: justify;
+}
+
+/* 3. Selecciona el elemento con ID title-1 */
+#title-1{
+    text-transform: uppercase;
+}
+
+/* 4. Selecciona todos los elementos que pertenezca a la clase .bg-yellow  */
+.bg-yellow{
+    background-color: yellow;
+}
+
+/* 5. Selecciona todos los elementos que tengan el atributo ID */
+*[id]{
+    color: green;
+}
+
+/* 6. Selecciona todos los elementos que tengan el atributo ID y como valor title-1 */
+*[id="title-1"]{
+    border: 1px solid black;
+}
+
+/* 7. Selecciona todos los elementos que tengan el atributo HREF con un valor https://www.yahoo.com */
+*[href="https://www.yahoo.com"]{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* 8. Selecciona todos los elementos que tengan el atributo class con un valor que empiece por title */
+*[class^="title"]{
+    background-color: red;
+}
+
+/* 9. Selecciona todos los elementos que tengan el atributo HREF y que acaben en.com   */
+*[href$=".com"]{
+    color: pink;
+}
+
+/* 10. Selecciona todos los elementos que tengan el atributo class con un valor title, title-1, title-2.. */
+*[class="title"],
+*[class="title-1"],
+*[class="title-2"]{
+    font-size: 30px;
+}
+
+/* 11. Selecciona todos los elementos que tengan un atributo href y cuyo valor contenga 127 */
+*[href*="127"]{
+    color: brown;
+}
+
+/* 12. Selecciona todos los elementos que tengan el atributo href y cuyo valor empieze por http */
+*[href^="http"]{
+    text-decoration: none;
+}
+
+/* 13. Selecciona los elementos que sean A, P, o H1 desde una única regla CSS */
+a, p, h1{
+    letter-spacing: 5px;
+}
+
+/* 14. Selecciona todos los elementos que pertezcan a main y que sean P */
+main p{
+    padding: 20px;
+}
+
+/* 15. Selecciona el siguiente elemento que sea hermano de H1 */
+h1 ~ p{
+    list-style: armenian;
+}
+
+/* 16. Selecciona todos los elementos que sean hermanos de H1 */
+h1 ~ *{
+    font-weight: bold;
+}
+
+/* 17. Selecciona todos los elementos hijos directos de main */
+main > *{
+    font-style: italic;
+}
+

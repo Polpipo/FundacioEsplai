@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #fe0300;
+    width: 100%;
+    height: 125px;
+}
+
+nav{
+    background-color: #007eff;
+    width: 100%;
+    height: 30px;
+}
+
+section{
+    background-color: #fec5c4;
+
+    float: left;
+    width: 68%;
+    height: 600px;
+}
+
+aside{
+    background-color: #fe81fe;
+
+    float: right;
+    width: 30%;
+    height: 600px;
+}
+
+footer{
+    background-color: #8afb1b;
+
+    clear: both;
+    float: none;
+    width: 100%;
+    height: 30px;
+}

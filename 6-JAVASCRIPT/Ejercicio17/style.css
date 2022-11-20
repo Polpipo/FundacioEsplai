@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 20px;
+}
+body{
+    background-color: antiquewhite;
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+p{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.input{
+    float: left;
+    font-size: 50px;
+    padding: 30px;
+    margin-left: 200px;
+    display: block;
+    background-color: #ccc;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.input:hover{
+    background-color: #444;
+}
+label{
+    cursor: pointer;
+}
+input{
+    display: none;
+}

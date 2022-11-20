@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO 17</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>EJERCICIO 17</h1>
+    <p>¡ABRE LA CONSOLA PARA JUGAR!</p>
+
+ 
+        <div id="box">
+            <div class="input">
+                <input type="radio" id="tijeras" name="selection" value="✂️" onclick="clicked()">
+                <label for="tijeras">✂️</label>
+            </div>
+    
+            <div class="input">
+                <input type="radio" id="piedra" name="selection" value="🪨" onclick="clicked()">
+                <label for="piedra">🪨</label>
+            </div>
+    
+            <div class="input">
+                <input type="radio" id="papel" name="selection" value="🧻" onclick="clicked()">
+                <label for="papel">🧻</label><br>
+            </div>
+        </div>
+        
+        <div class="clearfix"></div>
+
+        <div id="result"></div>
+
+  
+
+
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <script src="./main.js"></script>
+
+</body>
+
+</html>

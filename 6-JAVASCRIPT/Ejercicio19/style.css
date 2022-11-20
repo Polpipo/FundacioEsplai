@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+
+
+img{
+    position: absolute;
+}
+.interruptor{
+    left: 100px;
+    top: 300px;
+}
+
+.bombilla{
+    top: 100px;
+    left: 400px;
+}

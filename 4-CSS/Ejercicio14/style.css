@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#box{
+    width: 500px;
+    height: 500px;
+
+    
+    margin: 0px auto;
+    margin-top: 20px;
+    background-color: red;
+    border: 3px solid black;
+}
+
+.esquina{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+
+    
+    background-color: #abff2b;
+    border: 3px solid black;
+}
+
+
+
+#arriba-der{
+    top: 7px;
+    right: 455px;
+}
+
+#arriba-izq{
+    top: 7px;
+    left: 455px;
+}
+
+#debajo-der{
+    top: 495px;
+    right: 455px;
+}
+
+#debajo-izq{
+    top: 495px;
+    left: 455px;
+}
+
